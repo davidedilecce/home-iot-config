@@ -1,0 +1,17 @@
+logging:
+  level:
+    root: INFO
+
+spring:
+  application:
+    name: global-config
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+# Config MQTT comune
+mqtt:
+  broker-url: mqtt://localhost:1883
