@@ -12,6 +12,5 @@ management:
       exposure:
         include: "*"
 
-# Config MQTT comune
 mqtt:
   broker-url: mqtt://localhost:1883
