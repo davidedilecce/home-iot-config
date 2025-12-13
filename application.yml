@@ -14,8 +14,3 @@ management:
 
 mqtt:
   broker-url: mqtt://localhost:1883
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
