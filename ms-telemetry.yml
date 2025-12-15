@@ -1,0 +1,7 @@
+mqtt:
+  broker:
+    url: ${MQTT_HOST}
+  client.id: spring-mqtt-client
+  username: ${MQTT_USERNAME}
+  password: ${MQTT_PASSWORD}
+  topic: /gateways/#/sensors/#
