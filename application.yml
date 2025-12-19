@@ -11,6 +11,3 @@ management:
     web:
       exposure:
         include: "*"
-
-mqtt:
-  broker-url: mqtt://localhost:1883
