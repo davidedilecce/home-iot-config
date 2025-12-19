@@ -1,4 +1,4 @@
 spring:
   data:
     mongodb:
-      database: ${HOME_IOT_MS_GATEWAY_DB_NAME}
+      database: gateway_db

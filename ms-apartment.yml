@@ -1,4 +1,4 @@
 spring:
   data:
     mongodb:
-      database: ${HOME_IOT_MS_APARTMENT_DB_NAME}
+      database: apartment_db

@@ -1,8 +1,0 @@
-mqtt:
-  broker:
-    url: ${MQTT_HOST}
-  client:
-    id: ${MQTT_CLIENT_ID}
-  username: ${MQTT_USERNAME}
-  password: ${MQTT_PASSWORD}
-  topic: ${MQTT_TOPIC}
